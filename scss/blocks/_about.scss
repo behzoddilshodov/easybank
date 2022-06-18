@@ -1,0 +1,66 @@
+.about {
+
+}
+.about__inner {
+  background-image:url(/img/phone.png), url(/img/kvdj.png);
+  background-repeat: no-repeat;
+  background-position: calc(60% + 350px) , calc(60% + 605px) -260px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+
+}
+.about__container {
+
+}
+  
+
+.container {
+}
+.about___heading {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+  max-width: 394px;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.about__txt {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+  max-width: 447px;
+  margin: 0;
+  margin-bottom: 36px;
+}
+.about__link {
+}
+.site-header__button {
+}
+
+@include breakpoint-down(1028px){
+  .about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about___heading{
+    // margin-top: 1500px;
+
+    
+  }
+
+  .about__inner {
+    background-image:url(/img/phone.png), url(/img/kvdj.png);
+    background-repeat: no-repeat;
+    background-position: calc(50%) , calc(50%) -180px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-size: contain, cover;
+  }
+}
